@@ -1,9 +1,128 @@
-# Challenge Dados 1
-Repositório dos desafios do 1º Challenge de Dados da Alura.
+# 📊 End-to-End Data Pipeline — Python, SQL e Power BI  
+### Transformando dados brutos em insights acionáveis para tomada de decisão
 
-## Tecnologias
-![Static Badge](https://img.shields.io/badge/SQL-MySQL-blue) 
+Este projeto representa um pipeline completo de dados, passando por **extração, transformação, análise, modelagem e visualização**, utilizando **SQL**, **Python** (quando aplicável) e **Power BI** para entregar uma solução analítica de ponta a ponta.
 
-## Semana 1 - Tratamento de Dados
-A pasta contém os arquivos SQL originais com as informações são de umm banco fictício e dois relacionados ao desafio: Script JOINN, que é o código da consulta SQL que manipula e a extrai para um arquivo CSV, e Alura Cash, o arquivo csv extraido. 
+O objetivo é demonstrar como um Analista de Dados pode estruturar um fluxo completo, desde a exploração inicial até a entrega de um dashboard executivo com KPIs estratégicos.
 
+---
+
+## 🚀 Objetivos do Projeto
+
+- Organizar e tratar dados brutos para análise.  
+- Criar consultas SQL para exploração, validação e modelagem dos dados.  
+- Construir indicadores de negócio relevantes.  
+- Desenvolver um dashboard interativo no Power BI.  
+- Gerar insights que apoiem decisões estratégicas.
+
+---
+
+## 🧱 Arquitetura do Projeto
+
+end-to-end-data-pipeline-python-sql-powerbi/
+│
+├── sql/
+│   ├── consultas.sql        # consultas exploratórias
+│   ├── modelagem.sql        # criação de tabelas e métricas
+│   └── validacoes.sql       # verificações de consistência
+│
+├── powerbi/
+│   └── dashboard.pbix       # dashboard final
+│
+├── data/
+│   └── dataset.csv          # dados utilizados (opcional)
+│
+├── images/
+│   ├── dashboard.png        # print do dashboard
+│   └── kpis.png             # KPIs principais
+│
+└── README.md
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **SQL** (consultas, modelagem, validação)
+- **Power BI** (visualização, KPIs, storytelling)
+- **Excel** (apoio na exploração inicial)
+- **Python** (opcional, para análises complementares)
+- **Pandas / NumPy** (quando aplicável)
+
+---
+
+## 🔍 Etapas do Pipeline
+
+### **1. Exploração e Entendimento dos Dados**
+- Identificação de variáveis relevantes  
+- Verificação de inconsistências  
+- Análise de distribuição e padrões  
+
+### **2. Limpeza e Transformação**
+- Padronização de tipos  
+- Tratamento de valores ausentes  
+- Criação de colunas derivadas  
+- Normalização de dados (quando necessário)
+
+### **3. SQL — Consultas e Modelagem**
+- Consultas exploratórias  
+- Junções entre tabelas  
+- Criação de métricas  
+- Validação de integridade  
+
+### **4. Construção do Dashboard no Power BI**
+- Modelagem dimensional  
+- Criação de medidas em DAX  
+- KPIs estratégicos  
+- Visualizações interativas  
+- Filtros e segmentações  
+
+### **5. Insights e Conclusões**
+- Identificação de padrões  
+- Análise de performance  
+- Recomendações acionáveis  
+
+---
+
+## 📈 Dashboard
+
+Abaixo um preview do dashboard final:
+
+![Dashboard](./images/dashboard.png)
+
+> O dashboard apresenta KPIs essenciais, análises comparativas e visualizações que facilitam a tomada de decisão.
+
+---
+
+## 🧠 Principais Insights
+
+- **Insight 1:** destaque um achado relevante do projeto.  
+- **Insight 2:** comportamento inesperado identificado nos dados.  
+- **Insight 3:** recomendação estratégica baseada nos KPIs.  
+
+*(Se quiser, posso escrever esses insights para você — basta me enviar o contexto do dataset.)*
+
+---
+
+## ▶️ Como Executar
+
+### **1. SQL**
+Abra os arquivos da pasta `/sql` e execute as consultas no seu banco de dados preferido (MySQL, PostgreSQL, SQL Server etc.).
+
+### **2. Power BI**
+Abra o arquivo `dashboard.pbix` na pasta `/powerbi`.
+
+### **3. Dados**
+Se necessário, coloque o dataset original na pasta `/data`.
+
+---
+
+## 📬 Contato
+
+Se quiser trocar ideias sobre o projeto ou sobre Data Analytics:
+
+**LinkedIn:** https://linkedin.com/in/renancostaviana  
+**E-mail:** renan.cv@outlook.com.br  
+
+---
+
+### ✨ *Projeto desenvolvido para demonstrar um fluxo completo de análise de dados, unindo SQL, BI e storytelling para gerar valor real ao negócio.*
