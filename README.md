@@ -18,7 +18,7 @@ O objetivo é demonstrar como um Analista de Dados pode estruturar um fluxo comp
 ---
 
 ## 🧱 Arquitetura do Projeto
-
+```text
 end-to-end-data-pipeline-python-sql-powerbi/
 │
 ├── sql/
@@ -37,7 +37,7 @@ end-to-end-data-pipeline-python-sql-powerbi/
 │   └── kpis.png             # KPIs principais
 │
 └── README.md
-
+```
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -80,39 +80,6 @@ end-to-end-data-pipeline-python-sql-powerbi/
 - Identificação de padrões  
 - Análise de performance  
 - Recomendações acionáveis  
-
----
-
-## 📈 Dashboard
-
-Abaixo um preview do dashboard final:
-
-![Dashboard](./images/dashboard.png)
-
-> O dashboard apresenta KPIs essenciais, análises comparativas e visualizações que facilitam a tomada de decisão.
-
----
-
-## 🧠 Principais Insights
-
-- **Insight 1:** destaque um achado relevante do projeto.  
-- **Insight 2:** comportamento inesperado identificado nos dados.  
-- **Insight 3:** recomendação estratégica baseada nos KPIs.  
-
-*(Se quiser, posso escrever esses insights para você — basta me enviar o contexto do dataset.)*
-
----
-
-## ▶️ Como Executar
-
-### **1. SQL**
-Abra os arquivos da pasta `/sql` e execute as consultas no seu banco de dados preferido (MySQL, PostgreSQL, SQL Server etc.).
-
-### **2. Power BI**
-Abra o arquivo `dashboard.pbix` na pasta `/powerbi`.
-
-### **3. Dados**
-Se necessário, coloque o dataset original na pasta `/data`.
 
 ---
 
