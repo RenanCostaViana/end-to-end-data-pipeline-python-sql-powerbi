@@ -1,4 +1,4 @@
-# 📊 End-to-End Data Pipeline — Python, SQL e Power BI  
+# 📊 End-to-End Data Pipeline — Python, SQL e Power BI  (🚧 EM CONSTRUÇÃO)
 ### Transformando dados brutos em insights acionáveis para tomada de decisão
 
 Este projeto representa um pipeline completo de dados, passando por **extração, transformação, análise, modelagem e visualização**, utilizando **SQL**, **Python** (quando aplicável) e **Power BI** para entregar uma solução analítica de ponta a ponta.
